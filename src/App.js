@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './hooks/useTelegram.js';
 import Header from './components/Header/Header.jsx';
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes, Link} from 'react-router-dom'
 import ProductList from './components/ProductList/ProductList';
 import Form from './components/Form/Form.jsx';
 
@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Link to={'/form'}>form link</Link>
       <Routes>
         <Route index element={<ProductList />}/>
         <Route path={'form'} element={<Form />}/>
