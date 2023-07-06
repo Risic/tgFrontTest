@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { useTelegram } from './hooks/useTelegram,js';
+import { useTelegram } from './hooks/useTelegram.js';
 import Header from './components/Header/Header.jsx';
 
 function App() {
