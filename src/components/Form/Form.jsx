@@ -54,7 +54,6 @@ const Form = () => {
         <div className={"form"}>
             <h3>Введите ваши данные</h3>
             <input
-                name={"first"}
                 className={'input'}
                 type="text"
                 placeholder={'Страна'}
@@ -62,7 +61,6 @@ const Form = () => {
                 onChange={onChangeCountry}
             />
             <input
-            name='second'
                 className={'input'}
                 type="text"
                 placeholder={'Улица'}
