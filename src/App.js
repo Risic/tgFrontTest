@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Link to={'/form'}>form link</Link>
       <Routes>
         <Route index element={<ProductList />}/>
         <Route path={'form'} element={<Form />}/>
